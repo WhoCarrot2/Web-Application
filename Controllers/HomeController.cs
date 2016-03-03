@@ -12,7 +12,7 @@ namespace Web_Application.Controllers
         public ActionResult Index()
         {
             // Show that new code will be executed as soon as the source has changed
-            var version = "master";
+            var version = "version-2.0.0";
 
             return View(model:version);
         }
